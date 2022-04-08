@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@500&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+
+    background-color: rgb(245, 236, 225);
+}
+
+
+
+/* LOGO  */
+.logo img {
+    width: 100px;
+    margin-left: 40px;
+}
+
+/* menu  */
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 20px;
+}
+
+
+.nav-link a {
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.menu li {
+    list-style: none;
+    padding: 5px 20px;
+
+}
+
+.menu>li>a:hover {
+    color: rgb(230, 153, 0);
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.nav-booknow:hover {
+    background-color: rgb(62, 141, 194);
+    color: white;
+}
+
+.nav-booknow {
+    border: 1px solid gray;
+    text-decoration: none;
+    color: rgb(31, 43, 83);
+    font-weight: 100;
+    padding: 10px 10px;
+    border-radius: 40px;
+}
+
+.nav-bar {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    /* background-color: teal; */
+    color: #fff;
+
+}
+
+.features {
+    position: relative;
+}
+
+.integretion {
+    position: relative;
+}
+
+/* dropdown style 
+............ */
+
+.dropdown {
+    display: none;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+
+    top: 35px;
+    white-space: nowrap;
+
+}
+
+.dropdown li+li {
+    margin-top: 10px;
+}
+
+.dropdown {
+    padding: 0.5em 1em;
+    text-align: center;
+
+}
+
+.dropdown li:hover a {
+
+    color: rgb(180, 177, 177);
+
+}
+
+.dropdown li {
+    font-size: 10px;
+
+
+
+}
+
+.features:hover .dropdown {
+    display: block;
+
+
+}
+
+.integretion:hover .dropdown {
+    display: block;
+}
+
+/* main contain ..........................
+............................... */
+.heading {
+    margin-bottom: 150px;
+}
+
+.container {
+    margin-left: 40px;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: 100;
+    margin-bottom: 0;
+}
+
+/* button ....... */
+.booknow {
+    background-color: rgb(245, 69, 0);
+    border: 1px solid gray;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    padding: 10px 10px;
+    margin-right: 15px;
+    border-radius: 15px;
+}
+
+.booknow:hover {
+    background-color: rgb(230, 230, 230);
+    color: rgb(38, 38, 85);
+}
+
+.getstart {
+    background-color: rgb(19, 108, 168);
+    border: 1px solid gray;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    padding: 10px 10px;
+    border-radius: 40px;
+    margin-left: 15px;
+}
+
+.getstart:hover {
+    background-color: rgb(230, 230, 230);
+    color: rgb(38, 38, 85);
+}
+
+/* Demo work protfolio style ..................
+............................................... */
+.demo-container {
+    background-color: rgb(42, 42, 117);
+    margin-top: 100px;
+}
+
+.demowork {
+    display: flex;
+    padding-top: 150px;
+    color: white;
+    margin-right: 150px;
+
+}
+
+.wholesale {
+    font-size: 40px;
+    font-weight: 100;
+    margin-top: 100px;
+}
+
+.subtitle {
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.demopic img {
+    width: 70%;
+    margin-left: 150px;
+}

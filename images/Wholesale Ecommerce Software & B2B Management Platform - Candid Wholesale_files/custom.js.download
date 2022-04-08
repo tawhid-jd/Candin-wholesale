@@ -1,0 +1,23 @@
+jQuery(document).ready(function () {
+  console.log("custom.js firing!!");
+  jQuery.getScript("/wp-content/themes/bridge-child/js/ahoy.js", function () {
+    // script is now loaded and executed.
+    console.log("getScript has resolved!!");
+    ahoy.configure({
+      urlPrefix: "https://api.candidwholesale.com",
+      withCredentials: true,
+    });
+    ahoy.trackClicks("a, button, input[type=submit]");
+    ahoy.trackSubmits("form");
+    ahoy.trackChanges("input, textarea, select");
+  });
+  // jQuery.getScript(
+  //   "https://s3.us-west-2.amazonaws.com/static.candidwholesale.com/script/ahoy.js",
+  //   function (data, textStatus, jqxhr) {
+  //     console.log("data:", data); // Data returned
+  //     console.log("textStatus:", textStatus); // Success
+  //     console.log("jqxhr.status", jqxhr.status); // 200
+  //     console.log("Load was performed.");
+  //   }
+  // );
+});
