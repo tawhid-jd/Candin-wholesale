@@ -7,7 +7,7 @@ body {
 
 main {
 
-    background-color: rgb(245, 236, 225);
+    background-color: rgb(236, 236, 235);
 }
 
 
@@ -202,4 +202,53 @@ h1 {
 .demopic img {
     width: 70%;
     margin-left: 150px;
+}
+
+/* tools-container..............
+.......................... */
+.tools-container {
+    margin-left: 100px;
+    padding-left: 100px;
+}
+
+#small-heading {
+    color: rgba(241, 101, 101, 0.767);
+
+}
+
+.seller-buyer-heading {
+    font-size: 50px;
+    margin-top: 0px;
+    color: rgb(12, 12, 112);
+
+}
+
+.tools-hedaing {
+
+    text-align: center;
+}
+
+/* buyer seller expand */
+.buyer-seller-expand {
+    display: flex;
+    margin-top: 10px;
+}
+
+/* buyer  */
+.tools-img img {
+    height: 500px;
+}
+
+.buyer,
+.seller {
+    color: rgb(32, 32, 92);
+
+}
+
+.buyer {
+    text-align: right;
+}
+
+.seller {
+    text-align: left;
 }
